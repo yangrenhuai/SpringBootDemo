@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="task001-springboot-prv" />
+        <module name="task002-springboot-first" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="task002-springboot-first" options="-parameters" />
       <module name="task01-FirstWebSite" options="-parameters" />
       <module name="task02-thymeleaf" options="-parameters" />
     </option>
